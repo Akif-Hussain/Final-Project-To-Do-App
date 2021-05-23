@@ -1,3 +1,4 @@
+userDueDate.min = new Date().toISOString().split("T")[0];
 document.querySelector('#addTask').addEventListener('click', function(){
     const taskName = document.querySelector('#userTaskName').value;
     const taskAssignedTo = document.querySelector('#userAssignedTo').value;
