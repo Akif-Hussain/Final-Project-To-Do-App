@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+    background-image: linear-gradient(to top, #e22865, #37adcd);
+
+}
+
+#rowCustom{
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.Form{
+    border: 5px solid black;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 3rem;
+}
+
+.card{
+    margin: 1rem 1rem ;
+}
